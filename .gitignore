@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Data file (will be created fresh on Railway)
+tasks.json
+
+# macOS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+*.log

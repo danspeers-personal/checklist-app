@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Checklist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Daily Checklist</h1>
+            <p class="date" id="current-date"></p>
+        </header>
+
+        <main>
+            <!-- Form to add new tasks -->
+            <div class="add-task">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="What do you need to do today?"
+                    maxlength="100"
+                >
+                <button id="add-btn">Add Task</button>
+            </div>
+
+            <!-- List of tasks will appear here -->
+            <ul id="task-list" class="task-list">
+                <!-- Tasks will be added here by JavaScript -->
+            </ul>
+
+            <!-- Shows when there are no tasks -->
+            <div id="empty-state" class="empty-state">
+                <p>No tasks yet. Add one above to get started!</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Load our JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
