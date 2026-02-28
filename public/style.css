@@ -41,6 +41,15 @@ header h1 {
     font-weight: 600;
     margin-bottom: 8px;
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+header h1 i {
+    color: #5B5FED;
+    font-size: 1em;
 }
 
 .date {
